@@ -42,6 +42,8 @@ function highlight (text, words, length, map) {
     return '*'+word.toUpperCase()+'*'
   }
 
+  var words = words.split(/[^\w]+/gi).filter(Boolean).join(' ')
+
   var re = new RegExp('('+words.split(' ').join('|')+')', 'gi')
   var matches = {}
   var min = -1, max = -1, m
@@ -79,5 +81,4 @@ function highlight (text, words, length, map) {
 }
 
 module.exports = highlight
-
 
