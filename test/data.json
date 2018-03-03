@@ -1,0 +1,156 @@
+{
+  "epidemic": {
+    "previous": "%l96ubGWFnTz3kENMGz+VIjgVJD+rwKtpG4gcbTPKNwI=.sha256",
+    "author": "@YXquIbh1OqCCdMuqCO4tSJuYR7RL811CTuu59n7G0pk=.ed25519",
+    "sequence": 20,
+    "timestamp": 1519902602862,
+    "hash": "sha256",
+    "content": {
+      "type": "post",
+      "text": "post.tableflip.io welcomes this new out of order epidemic broadcasting",
+      "root": "%Igm25FZEje8LeruZ0MnCajFz9e1LoMO3EHB5C0fRMmw=.sha256",
+      "branch": "%lp54mt+/0C5OCdJJvB/6M/uAstMeQLQVjQojeSoG0y4=.sha256",
+      "channel": "ssbc-grants"
+    },
+    "signature": "TGfyrmgd05vO+QdESvLMCWEjbWcjMhfyJSZp3oTmNPcKoNedLSVpAsX277s9YRna1cpGwpvymLwFfswbFLZDBg==.sig.ed25519"
+  },
+  "light phone": {
+    "previous": "%LemT4a+SXxl3ULPgG9XSWyIFXRqxPj6QXFFsB1C5Ay4=.sha256",
+    "author": "@l46t7D+90dV8nf7FvKmA6Ro998Qf1Nx6KUypqEvDEBY=.ed25519",
+    "sequence": 140,
+    "timestamp": 1503862922105,
+    "hash": "sha256",
+    "content": {
+      "type": "post",
+      "channel": "gardening",
+      "text": "# Various Harvests\n\nI've been meaning to do a Day in the Life post for a while, but just haven't been able to see the forest for the trees lately.  The various gardens around my yard keep me pretty grounded, though, and I've had some fun this weekend harvesting what I can.  I have a bunch of photos on my phone, thought I might share them here.\n\n## Gourds!\n\nEarly this spring we decided to till up a fair chunk of the front yard for gardening. I live in an atomic age suburb outside of Denver, and the idea of gardening the front yard seems to make the neighbors squirm, which gives me some amount of pleasure and usually manages to assuage any doubt I may have when starting new projects.\n\n![IMG_4607.jpg](&T0n+PjS5Csy5rkTJ3N16/48MglEpUEFO8UHd81Zf4Ms=.sha256)\n_Here is the start, with the drip system I built to support it, complete with Instagram effects_\n\nWe planted zucchini, yellow summer squash, butternut squash and pumpkins. The pumpkins are closest to the street so I put up a bit of rabbit fence that I had in the shed once I saw neighborhood folks had no problem walking their dogs thru my freshly tilled field.\n\n![IMG_4730.jpg](&Ti27QEDY6nA9FxyUozzxEefvmgrsp8HSMomIOkVdCoI=.sha256)\n_After a few weeks growth_\n\n![IMG_4818.jpg](&7o+F5i7tgTFamSPhj8hJxfu8ais0P6rdkit3z5zFCYk=.sha256)\n_The first pumpkin, and a blossom_\n\n![IMG_4878.jpg](&gkHh8Yu27PkUDBuddtf7ikEkz9eL1gCFJjik6tIOzOk=.sha256)\n_More recent. I don't know when to harvest them, but I'm looking forward to pie and soup._\n\n![IMG_4674.jpg](&AIboM17bCgLzVEencdRtW1cEpM6MblR9BmHOS14IQDU=.sha256)\n_We grow more zucchini and squash than we can use.  Friends end up with a lot of it._\n\n## Tomatoes and Garlic\n\nI realize writing this that I don't have many pictures of the tomatoes, garlic or peppers.  Gardening the front yard started last year when I realized that the back yard didn't get enough light.  I built a 16' x 4' box into the slope along the driveway, and we had a lot of luck last year.  This year we've planted 8 tomato plants of a few heirloom varieties.  They keep us fed.\n\n![IMG_4879.jpg](&rMZbFj3cRNPRbGlVdFkrJ2NBmIc5pucNt9vEj6s8i0s=.sha256)\n_Heirloom Black Prince and cherry tomatoes with a couple of hybrids I wanted to use up_\n\n![IMG_4678.jpg](&rLl92FQADVZEyTxzRzuIb44SHgrLOuB/MwYL+dt6QcM=.sha256)\n_I decided to let the scapes grow.  They make good ingredients for sautés._\n\nThis is already obnoxiously long and photo-heavy, so I'll start another post on this thread.\n",
+      "mentions": [
+        {
+          "link": "&T0n+PjS5Csy5rkTJ3N16/48MglEpUEFO8UHd81Zf4Ms=.sha256",
+          "name": "IMG_4607.jpg",
+          "type": "image/jpeg",
+          "size": 1221786
+        },
+        {
+          "link": "&Ti27QEDY6nA9FxyUozzxEefvmgrsp8HSMomIOkVdCoI=.sha256",
+          "name": "IMG_4730.jpg",
+          "type": "image/jpeg",
+          "size": 3141052
+        },
+        {
+          "link": "&7o+F5i7tgTFamSPhj8hJxfu8ais0P6rdkit3z5zFCYk=.sha256",
+          "name": "IMG_4818.jpg",
+          "type": "image/jpeg",
+          "size": 2104999
+        },
+        {
+          "link": "&gkHh8Yu27PkUDBuddtf7ikEkz9eL1gCFJjik6tIOzOk=.sha256",
+          "name": "IMG_4878.jpg",
+          "type": "image/jpeg",
+          "size": 2411246
+        },
+        {
+          "link": "&AIboM17bCgLzVEencdRtW1cEpM6MblR9BmHOS14IQDU=.sha256",
+          "name": "IMG_4674.jpg",
+          "type": "image/jpeg",
+          "size": 2107298
+        },
+        {
+          "link": "&rMZbFj3cRNPRbGlVdFkrJ2NBmIc5pucNt9vEj6s8i0s=.sha256",
+          "name": "IMG_4879.jpg",
+          "type": "image/jpeg",
+          "size": 1176282
+        },
+        {
+          "link": "&rLl92FQADVZEyTxzRzuIb44SHgrLOuB/MwYL+dt6QcM=.sha256",
+          "name": "IMG_4678.jpg",
+          "type": "image/jpeg",
+          "size": 691383
+        }
+      ]
+    },
+    "signature": "hiIRvDyzt4HSz4sT3TfhebQV283rvGk5T/QUqhnhHEi1NMdil4F5qDVS2jlSh3PRQwlQEAbqLB93ZH/VLng0Ag==.sig.ed25519"
+  },
+  "collective fairness": {
+    "previous": "%hd5qgXiVWvXHmH2Q8dWDfVsjF27YcfrqfYnHBClLKT0=.sha256",
+    "author": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519",
+    "sequence": 2120,
+    "timestamp": 1519156516757,
+    "hash": "sha256",
+    "content": {
+      "type": "post",
+      "root": "%AbqKNw7/QNQZARzFABwhr2IyJfmJWjKvuObSS3L4LCI=.sha256",
+      "branch": "%Lb4EmuQWiQumlWv1hTFf7VYHvVdQub1ckNA9/CRxbAc=.sha256",
+      "reply": {
+        "%AbqKNw7/QNQZARzFABwhr2IyJfmJWjKvuObSS3L4LCI=.sha256": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519"
+      },
+      "channel": "solarpunk",
+      "recps": null,
+      "text": "Hey [@noffle](@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519) and [@substack](@9nTgtYmvW4HID6ayt6Icwc8WZxdifx5SlSKKIX/X/1g=.ed25519), thanks!\n\nI know it kind of sounded like I've been feeling pressured (hence sad) to be solarpunk. But I found out what I actually feel. Not sadness or pressure, but just inner confusion on whether I associate myself with the solarpunk identity or not. \n\nSo far I've been looking at solarpunk and cyberpunk as two opposing worldviews. This post was me explaining how solarpunk and cyberpunk are just brothers. Both share the same spirit and goal, but the little brother can't express himself ideally if he's just looking up to the big brother and wishing to have the same awesomeness.\n\nI'm presenting cyberpunk as an identity not in opposition to solarpunk, and an identity of which I'm proud to be. There isn't a consensus on what principles cyberpunk actually stands for, except for the broad theme of high-tech low-life in cyberpunk worlds, and survival in that world. I'd be happily living in the grid if the grid weren't in such bad shape, is what I'm saying. Now that it is in a bad shape, I'm in survival mode.\n\n> substack: I think an important aspect of the solarpunk ethos is that we can live in ways that balance our personal needs, the needs of others, and the needs of the natural world.\n\nThis is spot on, and it's quite accurate one of my core principles. Basically it's just egalitarianism, but I like the Finnish word for it: \"tasa-arvo\". Translating word by word, it's \"balanced-value\" as in *everyone is valuable*, perhaps not \"equally\" valuable, but definitely \"balancedly\" valuable. I like it because \"equal\" has connotations of \"sameness\" but balance has connotations of fairness. I think our generation's challenge, having been born to a multi-cultural multi-ethnical un-patriotic world, is to figure out how to combine radical diversity with radical egalitarianism.\n\nCyberpunk is dystopian and emphasizes survival. Solarpunk is utopian and emphasizes sufficiency. For the time being, I'm in survival mode in the dystopian environment. My utopian view, although, is not self-sufficiency, as is often portrayed in Solarpunk. This is perhaps the only detail I disagree with solarpunks. My idea of utopia is a grid that defends \"balanced-value\" society. I want to see basic needs, food, shelter, etc, *automated* away in collective sharing, managed by decentralized tech and robotics. I'm probably not the first to think of utopia like this.",
+      "mentions": [
+        {
+          "link": "@C3iYh/12sO1uvKq1KcZXLFxSySzxOkHxXN8rtNB5MGA=.ed25519",
+          "name": "noffle"
+        },
+        {
+          "link": "@9nTgtYmvW4HID6ayt6Icwc8WZxdifx5SlSKKIX/X/1g=.ed25519",
+          "name": "substack"
+        }
+      ]
+    },
+    "signature": "a3QMVI22jMF3fY+PUkJEhu+6TUuioIxS/LLaktkoMCKlmD/DxSxyNNtUZY8V+VIIpq4YHKSsUthVUsoBYr6NDg==.sig.ed25519"
+  },
+  "search results": {
+    "previous": "%TRVx2FVh0jvmJDBlnUATkI14Ng/D99uHzq4ecX589JM=.sha256",
+    "author": "@KuVEJqnauqVDu7XcJn5tp/xy6iy6etvqTdnGV7OtaBs=.ed25519",
+    "sequence": 768,
+    "timestamp": 1517592182050,
+    "hash": "sha256",
+    "content": {
+      "type": "post",
+      "root": "%dMHoBm9jrh1IHISFKlqaZ8eRZyGuIm5NeBndwx1X7N0=.sha256",
+      "branch": "%dMHoBm9jrh1IHISFKlqaZ8eRZyGuIm5NeBndwx1X7N0=.sha256",
+      "reply": {
+        "%dMHoBm9jrh1IHISFKlqaZ8eRZyGuIm5NeBndwx1X7N0=.sha256": "@QlCTpvY7p9ty2yOFrv1WU1AE88aoQc4Y7wYal7PFc+w=.ed25519"
+      },
+      "channel": null,
+      "recps": null,
+      "text": "In [Fred Brooks](https://en.wikipedia.org/wiki/Fred_Brooks)' very insightful book, [The Design of Design](https://en.wikipedia.org/wiki/The_Design_of_Design), he discusses system design (architectural, electrical, information, etc), examining the design process itself. He talks about how designers seem to be employing a graph search algorithm to search a graph representing the design space: each node a design, each edge a 'design choice' which results in a different 'design'.\n\nIt's an exploration of these ideas in your post, specifically thinking about system designs! There is no way I can do this book justice in a short summary though....",
+      "mentions": []
+    },
+    "signature": "paBVCjdsaj7uDUz1uDgGX8xJxIlcWa0c0sHBtOlaTkcvZUsX1Augr/OtUW/yAXjKSvvW7ddiZxgrDitphnmrBA==.sig.ed25519"
+  },
+  "fulltext search": {
+    "previous": "%BRi+FUnqjXP815JEfPZeEWK5FqZVjqRbA8QiwkA/fCU=.sha256",
+    "author": "@YXkE3TikkY4GFMX3lzXUllRkNTbj5E+604AkaO1xbz8=.ed25519",
+    "sequence": 2261,
+    "timestamp": 1519924455519,
+    "hash": "sha256",
+    "content": {
+      "type": "post",
+      "root": "%wD21N8VTJCScfaccdes/Yjqqj/oOL1c1brh+bg+mT28=.sha256",
+      "branch": [
+        "%77auvJLC3N6iRnpVXO5RUl3/YcGmeS5Gfd6BkONXJK8=.sha256",
+        "%K+9RNZoJg67yByZ1CsyQNAGLlPuUqnAoXqQt91ThFwo=.sha256"
+      ],
+      "reply": {
+        "%wD21N8VTJCScfaccdes/Yjqqj/oOL1c1brh+bg+mT28=.sha256": "@YXkE3TikkY4GFMX3lzXUllRkNTbj5E+604AkaO1xbz8=.ed25519",
+        "%77auvJLC3N6iRnpVXO5RUl3/YcGmeS5Gfd6BkONXJK8=.sha256": "@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519"
+      },
+      "channel": null,
+      "recps": null,
+      "text": "[@Aljoscha](@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519) The architecture I currently consider is to add an event emitter as well as some subcommand registration mechanism to the sbot muxrpc interface.\nPlugin clients can then use the event emitter to listen for incoming connections. When a new connection is established, the client gets the muxrpc node of the other party that it can call commands on.\nAlso, just like today's plugins, they can register new commands, from fulltext search over blob replication to feed replication. If a plugin is written in the same language it could also be just used built-in—using the same architecture, but dropping all the serializing, multiplexing, encryption etc.\n\nPart of me likes the idea of a very small core process and a lot of clients that provide all the functionality. The other part says I'm overengineering it :smiley: \n\ncc [@cryptix](@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519) ",
+      "mentions": [
+        {
+          "link": "@zurF8X68ArfRM71dF3mKh36W0xDM8QmOnAS5bYOq8hA=.ed25519",
+          "name": "Aljoscha"
+        },
+        {
+          "link": "@p13zSAiOpguI9nsawkGijsnMfWmFd5rlUNpzekEE+vI=.ed25519",
+          "name": "cryptix"
+        }
+      ]
+    },
+    "signature": "6Yb+YNP89g3fOn5QcyzsulD90CmTISFZTv/Wd8CS+HhQ4VJK2bBQ6t2h+z7pmKebZM/8VaQ9brQJv13V+vhgAw==.sig.ed25519"
+  }
+}
