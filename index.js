@@ -28,7 +28,7 @@ function trim (text, first, last, length) {
   else if(extra > 0) {
     return substring(text, first-extra, last+extra, true, true)
   }
-  else if(extra < 0) {
+  else if(extra <= 0) {
     return (
       substring(text, first - length/4,first + length/4, true)+
       '...'+
@@ -81,4 +81,6 @@ function highlight (text, words, length, map) {
 }
 
 module.exports = highlight
+
+
 
