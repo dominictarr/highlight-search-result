@@ -15,8 +15,9 @@ function trim (text, first, last, length) {
   last = last || first
   var extra = ~~((length - (last - first))/2)
 
-  var ep_ = first > 0 ? '...' : ''
-  var _ep = last < text.length ? '...' : ''
+  // unused variable
+  /*var ep_ = first > 0 ? '...' : ''
+  var _ep = last < text.length ? '...' : ''*/
 
 
   if(last + extra > text.length) {
@@ -42,7 +43,13 @@ function highlight (text, words, length, map) {
     return '*'+word.toUpperCase()+'*'
   }
 
-  var words = words.split(/[^\w]+/gi).filter(Boolean).join(' ')
+  // Add Chinese, Japanese, Korean (CJK) Unicode without punctuation
+  var words = words.split(/[^\w\u2E80-\u2FFF\u3040-\u9FFF]+/gi).filter(Boolean).join(' ')
+
+  // if `words` is empty or punctuation only
+  if (!words) {
+      return text.slice(0, length)
+  }
 
   var re = new RegExp('('+words.split(' ').join('|')+')', 'gi')
   var matches = {}
@@ -60,8 +67,15 @@ function highlight (text, words, length, map) {
     return a[a.length-1] - a[0]
   }
 
-  var best = {}
+  // unused variable
+  /*var best = {}*/
   var keys = Object.keys(matches)
+
+  // if `words` matched nothing in `text`
+  if (!keys.length) {
+      return text.slice(0, length)
+  }
+
   var matched = matches[keys[0]].map(function (index) {
     return [index].concat(keys.slice(1).map(function (key) {
       return matches[key].reduce(function (a, b) {
@@ -73,7 +87,8 @@ function highlight (text, words, length, map) {
   })
 
   var first = matched[0].shift(), last = matched[0].pop()
-  var dist = last-first
+  // unused variable
+  /*var dist = last-first*/
 
   return trim(text, first, last, length).split(re).map(function (e, i) {
     return i%2 ? map(e) : e
