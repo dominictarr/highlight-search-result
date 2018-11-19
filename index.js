@@ -1,47 +1,50 @@
 'use strict'
 
-function substring(string, start, end, ep_, _ep) {
+var ELLIPSIS = '…';
+
+function substring(string, start, end, ep_, _ep, ellipsis) {
   string = string.trim()
   start = Math.max(start, 0)
   end = Math.min(end, string.length)
 
-  return (ep_ && start > 0 ? '...' : '') + string.substring(
+  return (ep_ && start > 0 ? ellipsis : '') + string.substring(
     start == 0 ? start : string.indexOf(' ', start-1),
     end === string.length ? end : string.lastIndexOf(' ', end+1)
-  ) + (_ep && end < string.length ? '...' : '')
+  ) + (_ep && end < string.length ? ellipsis : '')
 }
 
-function trim (text, first, last, length) {
+function trim (text, first, last, length, ellipsis) {
   last = last || first
   var extra = ~~((length - (last - first))/2)
 
   // unused variable
-  /*var ep_ = first > 0 ? '...' : ''
-  var _ep = last < text.length ? '...' : ''*/
+  /*var ep_ = first > 0 ? ellipsis : ''
+  var _ep = last < text.length ? ellipsis : ''*/
 
 
   if(last + extra > text.length) {
-    return substring(text, text.length - length, text.length, true, false)
+    return substring(text, text.length - length, text.length, true, false, ellipsis)
   }
   else if (first - extra < 0) {
-    return substring(text, 0, length, false, true)
+    return substring(text, 0, length, false, true, ellipsis)
   }
   else if(extra > 0) {
-    return substring(text, first-extra, last+extra, true, true)
+    return substring(text, first-extra, last+extra, true, true, ellipsis)
   }
   else if(extra <= 0) {
     return (
-      substring(text, first - length/4,first + length/4, true)+
-      '...'+
-      substring(text, last - length/4,last + length/4, false, true)
+      substring(text, first - length/4,first + length/4, true, undefined, ellipsis)+
+      ellipsis+
+      substring(text, last - length/4,last + length/4, false, true, ellipsis)
     )
   }
 }
 
-function highlight (text, words, length, map) {
+function highlight (text, words, length, map, ellipsis) {
   map = map || function (word) {
     return '*'+word.toUpperCase()+'*'
   }
+  ellipsis = ellipsis || ELLIPSIS;
 
   // Add Chinese, Japanese, Korean (CJK) Unicode without punctuation
   var words = words.split(/[^\w\u2E80-\u2FFF\u3040-\u9FFF]+/gi).filter(Boolean).join(' ')
@@ -90,12 +93,9 @@ function highlight (text, words, length, map) {
   // unused variable
   /*var dist = last-first*/
 
-  return trim(text, first, last, length).split(re).map(function (e, i) {
+  return trim(text, first, last, length, ellipsis).split(re).map(function (e, i) {
     return i%2 ? map(e) : e
   }).join('')
 }
 
 module.exports = highlight
-
-
-
